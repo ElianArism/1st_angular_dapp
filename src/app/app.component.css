@@ -1,0 +1,44 @@
+.btn-container,
+.funds-container {
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+
+.btn {
+  background-color: black;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.funds-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 150px;
+  width: 70%;
+}
+
+.funds-container p {
+  font-size: 1.4rem;
+}
+
+.funds-container input {
+  background-color: black;
+  border-radius: 10px;
+  width: 60%;
+  padding: 10px;
+}
+
+.text-info {
+  text-align: center;
+  margin: 2rem 0;
+}
